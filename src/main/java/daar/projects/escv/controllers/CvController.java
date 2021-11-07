@@ -5,6 +5,7 @@ import daar.projects.escv.services.CvServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+import org.apache.log4j.Logger;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -20,6 +21,8 @@ public class CvController
 {
     @Autowired
     private CvServices cvServices;
+
+    private static final Logger LOG = Logger.getLogger(CvController.class.getName());
 
     @CrossOrigin(origins = "http://localhost:8081")
     @PostMapping(value = "cvs/add")
@@ -52,6 +55,7 @@ public class CvController
         }catch(IOException e)
         {
             e.printStackTrace();
+            LOG.error(e);
         }
         Iterable<Cv> iterable = cvServices.findAll();
         List<String> result = new ArrayList<>();

@@ -1,0 +1,60 @@
+2021-11-07 14:58:11.459  INFO 22243 --- [main] daar.projects.escv.EscvApplication       : Starting EscvApplication using Java 15 on macbook-pro-de-habib.home with PID 22243 (/Users/habibbouchenaki/Documents/M2/DAAR/escv/target/classes started by habibbouchenaki in /Users/habibbouchenaki/Documents/M2/DAAR/escv)
+2021-11-07 14:58:11.460  INFO 22243 --- [main] daar.projects.escv.EscvApplication       : No active profile set, falling back to default profiles: default
+2021-11-07 14:58:11.762  INFO 22243 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-11-07 14:58:11.800  INFO 22243 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 Elasticsearch repository interfaces.
+2021-11-07 14:58:11.926  INFO 22243 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-11-07 14:58:11.930  INFO 22243 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-11-07 14:58:12.240  INFO 22243 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-07 14:58:12.253  INFO 22243 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-07 14:58:12.254  INFO 22243 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-07 14:58:12.325  INFO 22243 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-07 14:58:12.325  INFO 22243 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 826 ms
+2021-11-07 14:58:12.854  WARN 22243 --- [main] org.elasticsearch.client.RestClient      : request [GET http://localhost:9200/] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-07 14:58:12.884  INFO 22243 --- [main] o.s.d.elasticsearch.support.VersionInfo  : Version Spring Data Elasticsearch: 4.2.5
+2021-11-07 14:58:12.885  INFO 22243 --- [main] o.s.d.elasticsearch.support.VersionInfo  : Version Elasticsearch Client in build: 7.12.1
+2021-11-07 14:58:12.885  INFO 22243 --- [main] o.s.d.elasticsearch.support.VersionInfo  : Version Elasticsearch Client used: 7.12.1
+2021-11-07 14:58:12.885  INFO 22243 --- [main] o.s.d.elasticsearch.support.VersionInfo  : Version Elasticsearch cluster: 7.15.1
+2021-11-07 14:58:12.885  WARN 22243 --- [main] o.s.d.elasticsearch.support.VersionInfo  : Version mismatch in between Elasticsearch Client and Cluster: 7.12.1 - 7.15.1
+2021-11-07 14:58:12.919  WARN 22243 --- [main] org.elasticsearch.client.RestClient      : request [HEAD http://localhost:9200/cvs?ignore_throttled=false&ignore_unavailable=false&expand_wildcards=open%2Cclosed&allow_no_indices=false] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-07 14:58:13.140  INFO 22243 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-07 14:58:13.150  INFO 22243 --- [main] daar.projects.escv.EscvApplication       : Started EscvApplication in 1.96 seconds (JVM running for 2.473)
+2021-11-07 15:01:48.226  INFO 22273 --- [main] daar.projects.escv.EscvApplication       : Starting EscvApplication using Java 15 on macbook-pro-de-habib.home with PID 22273 (/Users/habibbouchenaki/Documents/M2/DAAR/escv/target/classes started by habibbouchenaki in /Users/habibbouchenaki/Documents/M2/DAAR/escv)
+2021-11-07 15:01:48.228  INFO 22273 --- [main] daar.projects.escv.EscvApplication       : No active profile set, falling back to default profiles: default
+2021-11-07 15:01:48.555  INFO 22273 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-11-07 15:01:48.615  INFO 22273 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 Elasticsearch repository interfaces.
+2021-11-07 15:01:48.714  INFO 22273 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-11-07 15:01:48.717  INFO 22273 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-11-07 15:01:49.011  INFO 22273 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-07 15:01:49.018  INFO 22273 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-07 15:01:49.018  INFO 22273 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-07 15:01:49.080  INFO 22273 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-07 15:01:49.080  INFO 22273 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 816 ms
+2021-11-07 15:01:49.569  WARN 22273 --- [main] org.elasticsearch.client.RestClient      : request [GET http://localhost:9200/] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-07 15:01:49.623  INFO 22273 --- [main] o.s.d.elasticsearch.support.VersionInfo  : Version Spring Data Elasticsearch: 4.2.5
+2021-11-07 15:01:49.624  INFO 22273 --- [main] o.s.d.elasticsearch.support.VersionInfo  : Version Elasticsearch Client in build: 7.12.1
+2021-11-07 15:01:49.624  INFO 22273 --- [main] o.s.d.elasticsearch.support.VersionInfo  : Version Elasticsearch Client used: 7.12.1
+2021-11-07 15:01:49.624  INFO 22273 --- [main] o.s.d.elasticsearch.support.VersionInfo  : Version Elasticsearch cluster: 7.15.1
+2021-11-07 15:01:49.625  WARN 22273 --- [main] o.s.d.elasticsearch.support.VersionInfo  : Version mismatch in between Elasticsearch Client and Cluster: 7.12.1 - 7.15.1
+2021-11-07 15:01:49.657  WARN 22273 --- [main] org.elasticsearch.client.RestClient      : request [HEAD http://localhost:9200/cvs?ignore_throttled=false&ignore_unavailable=false&expand_wildcards=open%2Cclosed&allow_no_indices=false] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-07 15:01:49.865  INFO 22273 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-07 15:01:49.874  INFO 22273 --- [main] daar.projects.escv.EscvApplication       : Started EscvApplication in 1.909 seconds (JVM running for 2.414)
+2021-11-07 15:07:33.776  INFO 22306 --- [main] daar.projects.escv.EscvApplication       : Starting EscvApplication using Java 15 on macbook-pro-de-habib.home with PID 22306 (/Users/habibbouchenaki/Documents/M2/DAAR/escv/target/classes started by habibbouchenaki in /Users/habibbouchenaki/Documents/M2/DAAR/escv)
+2021-11-07 15:07:33.783  INFO 22306 --- [main] daar.projects.escv.EscvApplication       : No active profile set, falling back to default profiles: default
+2021-11-07 15:07:34.215  INFO 22306 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2021-11-07 15:07:34.242  INFO 22306 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 Elasticsearch repository interfaces.
+2021-11-07 15:07:34.333  INFO 22306 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2021-11-07 15:07:34.336  INFO 22306 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2021-11-07 15:07:34.618  INFO 22306 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-07 15:07:34.624  INFO 22306 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-07 15:07:34.625  INFO 22306 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-11-07 15:07:34.716  INFO 22306 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-07 15:07:34.716  INFO 22306 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 851 ms
+2021-11-07 15:07:35.364  WARN 22306 --- [main] org.elasticsearch.client.RestClient      : request [GET http://localhost:9200/] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-07 15:07:35.389  INFO 22306 --- [main] o.s.d.elasticsearch.support.VersionInfo  : Version Spring Data Elasticsearch: 4.2.5
+2021-11-07 15:07:35.389  INFO 22306 --- [main] o.s.d.elasticsearch.support.VersionInfo  : Version Elasticsearch Client in build: 7.12.1
+2021-11-07 15:07:35.390  INFO 22306 --- [main] o.s.d.elasticsearch.support.VersionInfo  : Version Elasticsearch Client used: 7.12.1
+2021-11-07 15:07:35.390  INFO 22306 --- [main] o.s.d.elasticsearch.support.VersionInfo  : Version Elasticsearch cluster: 7.15.1
+2021-11-07 15:07:35.390  WARN 22306 --- [main] o.s.d.elasticsearch.support.VersionInfo  : Version mismatch in between Elasticsearch Client and Cluster: 7.12.1 - 7.15.1
+2021-11-07 15:07:35.418  WARN 22306 --- [main] org.elasticsearch.client.RestClient      : request [HEAD http://localhost:9200/cvs?ignore_throttled=false&ignore_unavailable=false&expand_wildcards=open%2Cclosed&allow_no_indices=false] returned 1 warnings: [299 Elasticsearch-7.15.1-83c34f456ae29d60e94d886e455e6a3409bba9ed "Elasticsearch built-in security features are not enabled. Without authentication, your cluster could be accessible to anyone. See https://www.elastic.co/guide/en/elasticsearch/reference/7.15/security-minimal-setup.html to enable security."]
+2021-11-07 15:07:35.636  INFO 22306 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-07 15:07:35.652  INFO 22306 --- [main] daar.projects.escv.EscvApplication       : Started EscvApplication in 2.347 seconds (JVM running for 3.061)
