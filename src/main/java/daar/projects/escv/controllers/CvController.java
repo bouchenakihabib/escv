@@ -2,7 +2,6 @@ package daar.projects.escv.controllers;
 
 import daar.projects.escv.models.Cv;
 import daar.projects.escv.services.CvServices;
-import org.json.JSONArray;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -66,8 +65,7 @@ public class CvController
                 produces = "application/json")
     public List<Cv> searchByPattern(@PathVariable String pattern)
     {
-        List<Cv> cvList = cvServices.searchByStringCv(pattern);
-        return cvList;
+        return cvServices.searchByStringCv(pattern);
     }
 
     @CrossOrigin(origins = "http://localhost:8081")
