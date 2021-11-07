@@ -1,0 +1,38 @@
+{
+  "properties": [
+    {
+      "name": "spring.servlet.multipart.max-file-size",
+      "type": "java.lang.String",
+      "description": "Description for spring.http.multipart.max-file-size."
+    },
+    {
+      "name": "spring.servlet.multipart.max-request-size",
+      "type": "java.lang.String",
+      "description": "Description for spring.http.multipart.max-request-size."
+    },
+    {
+      "name": "elasticsearch.clustername",
+      "type": "java.lang.String",
+      "description": "Description for elasticsearch.clustername."
+    },
+    {
+      "name": "elasticsearch.host",
+      "type": "java.lang.String",
+      "description": "Description for elasticsearch.host."
+    },
+    {
+      "name": "elasticsearch.port",
+      "type": "java.lang.String",
+      "description": "Description for elasticsearch.port."
+    },
+    {
+      "name": "elasticsearch.index.name",
+      "type": "java.lang.String",
+      "description": "Description for elasticsearch.index.name."
+    },
+    {
+      "name": "url",
+      "type": "java.lang.String",
+      "description": "Description for url."
+    }
+  ] }
