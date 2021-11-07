@@ -16,6 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
+import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,6 +32,8 @@ public class CvServices implements CvServicesI
 
     @Autowired
     private ObjectMapper objMapper;
+
+    private static final Logger LOG = Logger.getLogger(CvServices.class.getName());
 
     public CvServices(@Value("${elasticsearch.host}") String host,
                       @Value("${elasticsearch.port}") Integer port)
@@ -95,6 +98,7 @@ public class CvServices implements CvServicesI
         }catch(Exception e)
         {
             e.printStackTrace();
+            LOG.error(e);
         }
 
         return results;
